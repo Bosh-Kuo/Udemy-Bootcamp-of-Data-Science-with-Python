@@ -16,7 +16,7 @@ dtype: The data type of the elements in the array;
 Expected return:
 
 inspect_array(np.array([1,2,3])) 
- 
+---
 Shape : (3,)
 Size:  3
 Ndim:  1
@@ -27,6 +27,7 @@ array([1, 2, 3])
 
 
 inspect_array([1,2,3]) 
+---
 'The inserted object is not a NumPy array.'
 ```
 
