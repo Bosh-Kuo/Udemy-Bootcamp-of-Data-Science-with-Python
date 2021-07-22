@@ -1,0 +1,17 @@
+import numpy as np
+A = np.array([[3,1,4],[10,7,5],[1,4,4]])
+B = np.eye(3)
+C = np.diag([5,10,2])
+D = np.diag([3,7,11,2])
+E = np.array([[5,0,13,12],[1,-1,25,7],[6,2,1,20],[11,4,0,-9]])
+det_A = np.linalg.det(A).round()
+det_B = np.linalg.det(B).round()
+det_C = np.linalg.det(C).round()
+det_D = np.linalg.det(D).round()
+det_E = np.linalg.det(E).round()
+
+print('det(A):',det_A)
+print('\ndet(B):', det_B)
+print('\ndet(C):', det_C)
+print('\ndet(D):', det_D)
+print('\ndet(E):', det_E)
